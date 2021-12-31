@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Lexend Deca", "Big Shoulders Display", serif, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 50%;
+  .col1 {
+    background-color: hsl(31, 77%, 52%);
+  }
+  .col1 > * {
+    padding-left: 20px;
+  }
+  .btn1 {
+    color: hsl(31, 77%, 52%);
+  }
+  .col2 {
+    background-color: hsl(184, 100%, 22%);
+  }
+  .col2 > * {
+    padding-left: 20px;
+  }
+  .btn2 {
+    color: hsl(184, 100%, 22%);
+  }
+  .col3 {
+    background-color: hsl(179, 100%, 13%);
+  }
+  .col3 > * {
+    padding-left: 20px;
+  }
+  .btn3 {
+    color: hsl(179, 100%, 13%);
+  }
+  .hova:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #eee;
+    border: 1px solid #eee;
+    transition-timing-function: ease;
+  }
+}
+
+.col1,
+.col2,
+.col3 {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  p {
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    font-weight: 400;
+    font-family: "Lexend Deca";
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  h1 {
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  button {
+    align-self: flex-start;
+    margin-left: 20px;
+    padding-right: 20px;
+    height: 45px;
+    width: 125px;
+    border-radius: 20px;
+    outline: none;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
